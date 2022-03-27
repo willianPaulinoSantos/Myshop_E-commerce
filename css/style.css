@@ -1,0 +1,29 @@
+header {
+    background-color: rgb(241, 235, 151);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header .cabecalho-nav__lista-item{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+header .cabecalho-nav__lista-item li{
+    list-style-type: none;
+    margin-left: 2rem;
+}
+
+header .cabecalho-nav__lista-item li:hover{
+    transition: all 0.1s;
+    transform: scale(1.2);
+}
